@@ -1,0 +1,31 @@
+.notification-card-item {
+  display: flex;
+  flex-direction: row;
+
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
+
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 50vh;
+
+  color: aliceblue;
+}
+.information-card {
+  background-color: #0b69ff;
+}
+.success-card {
+  background-color: #2dca73;
+}
+.warning-card {
+  background-color: #ffb800;
+}
+.error-card {
+  background-color: #ff0b37;
+}
+.notification-image {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
